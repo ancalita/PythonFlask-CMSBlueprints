@@ -1,5 +1,5 @@
-import SQLAlchemy from flask_sqlalchemy
-import datetime from datetime
+from flask_sqlalchemy import SQLAlchemy
+from datetime import datetime
 
 db = SQLAlchemy()
 
